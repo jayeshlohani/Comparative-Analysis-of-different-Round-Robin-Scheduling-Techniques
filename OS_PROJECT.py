@@ -55,7 +55,7 @@ def add_results(avgwt,avgtat,context):
     pltTat.append(avgtat)
     pltContext.append(context)
 
-
+# MAIN FUNCTION
 def main():
     global pltWt,pltTat,pltContext
     p1 = Processes()                          # NORMAL ROUND ROBIN
